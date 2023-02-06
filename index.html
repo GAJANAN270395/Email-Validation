@@ -14,6 +14,7 @@
   </head>
   <body>
   <form class="form">
+
    <div class="input-container">
    <input 
    type="email"
@@ -24,18 +25,22 @@
    autocomplete="off"
    required
    />
+
    <label for="email-input">Email Address</label>
    <i id="email-icon" class="fa-solid fa-envelope"></i>
+
    <!-- Email invalid toast message -->
    <span class="toast-msg" id="invalid-toast">
     <i class="fa-solid fa-circle-exclamation"></i>
     <p>Please enter the correct email format!</p>
    </span>
+
    <!-- email successfuly submit message -->
    <span class="toast-msg success" id="success-toast">
     <i class="fa-solid fa-check"></i>
     <p>Great! your email successfuly submitted</p>
    </span>
+
    </div>
    <button class="submit-btn">Submit</button>
   </form>
